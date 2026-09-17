@@ -1,0 +1,48 @@
+# chat_user / slug do roster → coordenação de quem pediu
+# papel: web = célula WEB/SEO (execução PJ)
+coordenacoes:
+  duarte: Duarte
+  smarito: Smarito
+  ventura: Ventura
+  operacao_web: operação WEB
+  outra: outra
+  nao_mapeado: não mapeado
+
+pessoas:
+  guilherme: { coordenacao: duarte, papel: coord }
+  fabio: { coordenacao: duarte, papel: ops }
+  nathan: { coordenacao: duarte, papel: ops }
+  stephanie: { coordenacao: duarte, papel: ops }
+  david: { coordenacao: duarte, papel: ops }
+  lucas-silva: { coordenacao: duarte, papel: ops }
+  andre: { coordenacao: duarte, papel: ops }
+  bhrenda: { coordenacao: duarte, papel: ops }
+  filipe: { coordenacao: duarte, papel: ops }
+  lucas-andrade: { coordenacao: duarte, papel: ops }
+  gustavo: { coordenacao: smarito, papel: coord }
+  rafael: { coordenacao: smarito, papel: web }
+  bruno: { coordenacao: smarito, papel: web }
+  hernanne: { coordenacao: smarito, papel: ops }
+  ian: { coordenacao: smarito, papel: ops }
+  beatriz: { coordenacao: smarito, papel: ops }
+  eduardo: { coordenacao: smarito, papel: ops }
+  leonardo-almeida: { coordenacao: smarito, papel: ops }
+  nayara: { coordenacao: ventura, papel: coord }
+  matheus: { coordenacao: ventura, papel: ops }
+  mychelly: { coordenacao: ventura, papel: ops }
+  jean: { coordenacao: ventura, papel: ops }
+  jhonatan: { coordenacao: ventura, papel: ops }
+  leonardo-esteves: { coordenacao: ventura, papel: ops }
+  denis: { coordenacao: outra, papel: ops }
+  mayara: { coordenacao: outra, papel: ops }
+  bryan: { coordenacao: outra, papel: ops }
+
+# username FLOW → coordenação do cliente
+flow_coord:
+  guilhermeduarte.coord: duarte
+  guilherme: duarte
+  gustavosmarito.coord: smarito
+  gustavosmarito.tech: smarito
+  gustavo.smarito: smarito
+  nayaraventura: ventura
+  nayara: ventura

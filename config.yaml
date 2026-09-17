@@ -1,0 +1,36 @@
+lookback_days: 45
+sla_business_days: 1
+gate_password: v4v4v4xablau
+timezone: America/Sao_Paulo
+
+spaces:
+  - id: spaces/AAAALdSmBYk
+    slug: suporte
+    label: Suporte WEB/SEO
+    display_name: "[Colli&Co] Suporte WEB/SEO"
+  - id: spaces/AAQAotTFxtg
+    slug: cc
+    label: CC Web/SEO
+    display_name: "[Colli&Co] CC Web/SEO"
+
+ekyte:
+  web_task_type_id: 79514
+  default_due_business_days: 4
+  serve_port: 8768
+  executors:
+    rafael:
+      id: c9c77d96-908e-4f6c-a71f-50595beda3dc
+      nome: Rafael Lino
+    bruno:
+      id: f30b7283-029a-4578-813c-0e6c399bf68f
+      nome: Bruno Sergio
+
+web_cell_chat_users:
+  - users/101248727261448322731  # Rafael Lino
+  - users/100962128424856173322  # Bruno Sergio
+  - users/102705438702676435942  # Gustavo Smarito
+
+flow_squads:
+  - Billions
+  - Invictus
+  - Exclusive

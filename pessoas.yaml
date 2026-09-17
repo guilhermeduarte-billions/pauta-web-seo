@@ -1,0 +1,136 @@
+pessoas:
+- slug: bryan
+  nome: Bryan Gabriel Viana Lopes
+  chat_user: users/114892688338170613702
+  coordenacao: outra
+  papel: ops
+- slug: fabio
+  nome: Fabio José Aiello Junior
+  chat_user: users/106987926980361679912
+  coordenacao: duarte
+  papel: ops
+- slug: guilherme
+  nome: Guilherme Duarte
+  chat_user: users/105260729060679427848
+  coordenacao: duarte
+  papel: coord
+- slug: gustavo
+  nome: Gustavo Gazzola Smarito
+  chat_user: users/102705438702676435942
+  coordenacao: smarito
+  papel: coord
+- slug: jhonatan
+  nome: Jhonatan Mayer
+  chat_user: users/110567030705957970333
+  coordenacao: ventura
+  papel: ops
+- slug: nayara
+  nome: Nayara Ventura
+  chat_user: users/114550369730420212935
+  coordenacao: ventura
+  papel: coord
+- slug: beatriz
+  nome: Beatriz de Andrade Vieira
+  chat_user: users/100503864044332278010
+  coordenacao: smarito
+  papel: ops
+- slug: lucas-andrade
+  nome: Lucas Raphael Almeida de Andrade
+  chat_user: users/114029741459918626880
+  coordenacao: duarte
+  papel: ops
+- slug: andre
+  nome: André Emanuel Ribeiro
+  chat_user: users/116996954452385525813
+  coordenacao: duarte
+  papel: ops
+- slug: eduardo
+  nome: Eduardo Wellausen
+  chat_user: users/103495160158624075219
+  coordenacao: smarito
+  papel: ops
+- slug: filipe
+  nome: Filipe Santana
+  chat_user: users/105478230060369031133
+  coordenacao: duarte
+  papel: ops
+- slug: leonardo-esteves
+  nome: Leonardo Esteves
+  chat_user: users/101707702633190434772
+  coordenacao: ventura
+  papel: ops
+- slug: denis
+  nome: Denis Orosco
+  chat_user: users/108885161610951210889
+  coordenacao: outra
+  papel: ops
+- slug: matheus
+  nome: Matheus Jordan
+  chat_user: users/100050830763989838198
+  coordenacao: ventura
+  papel: ops
+- slug: mychelly
+  nome: Mychelly Severo
+  chat_user: users/110626618033276166683
+  coordenacao: ventura
+  papel: ops
+- slug: nathan
+  nome: Nathan Nixon
+  chat_user: users/104387585181323947089
+  coordenacao: duarte
+  papel: ops
+- slug: stephanie
+  nome: Stephanie Molina
+  chat_user: users/114819569810724219047
+  coordenacao: duarte
+  papel: ops
+- slug: david
+  nome: David Dias
+  chat_user: users/114784081213749568777
+  coordenacao: duarte
+  papel: ops
+- slug: jean
+  nome: Jean Reis
+  chat_user: users/104844289704077949572
+  coordenacao: ventura
+  papel: ops
+- slug: leonardo-almeida
+  nome: Leonardo Augusto Campos de Almeida
+  chat_user: users/103799110381138168772
+  coordenacao: smarito
+  papel: ops
+- slug: lucas-silva
+  nome: Lucas Silva
+  chat_user: users/109598302824470475219
+  coordenacao: duarte
+  papel: ops
+- slug: mayara
+  nome: Mayara Alvares Santana
+  chat_user: users/103113031904826821176
+  coordenacao: outra
+  papel: ops
+- slug: hernanne
+  nome: Hernanne Rodrigues Domiciano
+  chat_user: users/110190694511554789746
+  coordenacao: smarito
+  papel: ops
+- slug: ian
+  nome: Ian Cerqueira
+  chat_user: users/108581529994356831279
+  coordenacao: smarito
+  papel: ops
+- slug: bruno
+  nome: Bruno Sergio da Silva
+  chat_user: users/100962128424856173322
+  coordenacao: smarito
+  papel: web
+- slug: bhrenda
+  nome: Bhrenda Silva Cruz
+  chat_user: users/117591590906545387809
+  coordenacao: duarte
+  papel: ops
+- slug: rafael
+  nome: Rafael Lino Seabra
+  chat_user: users/101248727261448322731
+  coordenacao: smarito
+  papel: web

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+credentials/oauth_client.json
+credentials/token.json
+credentials/*.json
+!credentials/.gitkeep
+output/
+state/
+.DS_Store

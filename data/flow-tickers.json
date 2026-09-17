@@ -1,0 +1,2072 @@
+{
+  "NUVE": {
+    "ticker": "NUVE",
+    "nome": "Nuveto Comunicacoes",
+    "aliases": [
+      "NUVE",
+      "NUVETO COMUNICACOES LTDA(NUVETO COMUNICACOES LTDA - 26.957.821/0001-04)",
+      "Nuveto Comunicacoes"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "SILM": {
+    "ticker": "SILM",
+    "nome": "Silmax Medicos Alimenticios",
+    "aliases": [
+      "SILM",
+      "SILMAX COMERCIAL DE PRODUTOS MEDICOS E ALIMENTICIOS LTDA - 37.821.281/0001-53(SILMAX COMERCIAL DE PRODUTOS MEDICOS E ALIMENTICIOS LTDA - 37.821.281/0001-53) - MONETIZAÇÃO",
+      "Silmax Medicos Alimenticios"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "AVA": {
+    "ticker": "AVA",
+    "nome": "Avanti Intermediacoes Negocios",
+    "aliases": [
+      "AVA",
+      "AVANTI INTERMEDIACOES DE NEGOCIOS EMPRESARIAIS LTDA",
+      "Avanti Intermediacoes Negocios"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "CRE": {
+    "ticker": "CRE",
+    "nome": "Creazione Marcas Patentes",
+    "aliases": [
+      "CRE",
+      "CREAZIONE MARCAS E PATENTES LTDA.",
+      "Creazione Marcas Patentes"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "PSTN": {
+    "ticker": "PSTN",
+    "nome": "WK Carpetes",
+    "aliases": [
+      "PSTN",
+      "WK CARPETES",
+      "WK Carpetes"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "NORD": {
+    "ticker": "NORD",
+    "nome": "Nordplast Plasticos",
+    "aliases": [
+      "NORD",
+      "NORDPLAST INDUSTRIA E COMERCIO DE MATERIAIS PLASTICOS LTDA",
+      "Nordplast Plasticos"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "JHF4": {
+    "ticker": "JHF4",
+    "nome": "JHF4X",
+    "aliases": [
+      "JHF4",
+      "JHF4X"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "DCP": {
+    "ticker": "DCP",
+    "nome": "Days Capital Participacao",
+    "aliases": [
+      "DAYS CAPITAL PARTICIPACAO LTDA",
+      "DCP",
+      "Days Capital Participacao"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "UUSM": {
+    "ticker": "UUSM",
+    "nome": "U Smiling",
+    "aliases": [
+      "U SMILING (SJ ODONTOLOGIA LTDA)(U SMILING (SJ ODONTOLOGIA LTDA)) - MONETIZAÇÃO",
+      "U Smiling",
+      "UUSM"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "BRANQ": {
+    "ticker": "BRANQ",
+    "nome": "Branquinho Santana",
+    "aliases": [
+      "BRANQ",
+      "BRANQUINHO & SANTANA - SOCIEDADE DE ADVOGADOS",
+      "Branquinho Santana"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "DEIL": {
+    "ticker": "DEIL",
+    "nome": "Durcon Industriais",
+    "aliases": [
+      "DEIL",
+      "DURCON EQUIPAMENTOS INDUSTRIAIS LIMITADA",
+      "Durcon Industriais"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "MNSS": {
+    "ticker": "MNSS",
+    "nome": "Minussi Home",
+    "aliases": [
+      "MNSS",
+      "Minussi Home"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "GTXQ": {
+    "ticker": "GTXQ",
+    "nome": "Getex Quimica",
+    "aliases": [
+      "GETEX QUIMICA",
+      "GTXQ",
+      "Getex Quimica"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "DEST1": {
+    "ticker": "DEST1",
+    "nome": "Destra Gestao Qualidade",
+    "aliases": [
+      "DEST1",
+      "DESTRA GESTAO DA QUALIDADE S/S - 04.556.834/0001-39(DESTRA GESTAO DA QUALIDADE S/S - 04.556.834/0001-39) - MONETIZAÇÃO",
+      "Destra Gestao Qualidade"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "WSS": {
+    "ticker": "WSS",
+    "nome": "Well Services",
+    "aliases": [
+      "WELL SERVICES(WELL SERVICES)",
+      "WSS",
+      "Well Services"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "MDCR": {
+    "ticker": "MDCR",
+    "nome": "Medicar Emergências Médicas",
+    "aliases": [
+      "MDCR",
+      "MEDICAR EMERGÊNCIAS MÉDICAS SÃO PAULO",
+      "Medicar Emergencias Medicas",
+      "Medicar Emergências Médicas"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "SICA": {
+    "ticker": "SICA",
+    "nome": "Sameach Acessorios",
+    "aliases": [
+      "SAMEACH INDUSTRIA E COMERCIO DE ACESSORIOS LTDA",
+      "SICA",
+      "Sameach Acessorios"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "HAN": {
+    "ticker": "HAN",
+    "nome": "Hanaro",
+    "aliases": [
+      "HAN",
+      "Hanaro"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "MECA": {
+    "ticker": "MECA",
+    "nome": "Meca Automatizadores",
+    "aliases": [
+      "MECA",
+      "Meca Automatizadores"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "EZTR": {
+    "ticker": "EZTR",
+    "nome": "Ez Turismo",
+    "aliases": [
+      "EZTR",
+      "Ez Turismo"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "SINQ": {
+    "ticker": "SINQ",
+    "nome": "Sinq Atelier",
+    "aliases": [
+      "SINQ",
+      "SINQ ATELIER",
+      "Sinq Atelier"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "RET": {
+    "ticker": "RET",
+    "nome": "Roma Empreendimentos Turismo",
+    "aliases": [
+      "RET",
+      "ROMA EMPREENDIMENTOS E TURISMO LTDA",
+      "Roma Empreendimentos Turismo"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "MI5": {
+    "ticker": "MI5",
+    "nome": "MI5 Pecas",
+    "aliases": [
+      "MI5",
+      "MI5 Pecas",
+      "[ACMAX] MI5 DISTRIBUIDORA DE PECAS LTDA - 26.269.991/0001-04(MI5 DISTRIBUIDORA DE PECAS LTDA - 26.269.991/0001-04) - MONETIZAÇÃO"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "APE": {
+    "ticker": "APE",
+    "nome": "AP Equip",
+    "aliases": [
+      "AP Equip",
+      "APE"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "GCBB": {
+    "ticker": "GCBB",
+    "nome": "Giacobbo Contabilidade",
+    "aliases": [
+      "GCBB",
+      "GIACOBBO CONTABILIDADE",
+      "Giacobbo Contabilidade"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "REV": {
+    "ticker": "REV",
+    "nome": "Revinte Pisos Revestimentos",
+    "aliases": [
+      "REV",
+      "REVINTE PISOS E REVESTIMENTOS LTDA",
+      "Revinte Pisos Revestimentos"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "MAI": {
+    "ticker": "MAI",
+    "nome": "Maidpad",
+    "aliases": [
+      "MAI",
+      "MaidPad - SEO",
+      "Maidpad"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "FANN": {
+    "ticker": "FANN",
+    "nome": "Fannix Varejista Promocionais",
+    "aliases": [
+      "FANN",
+      "FANNIX COMERCIO VAREJISTA DE MATERIAIS PROMOCIONAIS LTDA(FANNIX COMERCIO VAREJISTA DE MATERIAIS PROMOCIONAIS LTDA - 19.318.707/0002-50)",
+      "Fannix Varejista Promocionais"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "OFOS": {
+    "ticker": "OFOS",
+    "nome": "Ofos",
+    "aliases": [
+      "OFOS",
+      "Ofos"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "AER": {
+    "ticker": "AER",
+    "nome": "Aero TD",
+    "aliases": [
+      "AER",
+      "AERO TD - Sales Enablement",
+      "Aero TD"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "DDPP2": {
+    "ticker": "DDPP2",
+    "nome": "D P V",
+    "aliases": [
+      "D P V",
+      "D P V PRODUTOS QUIMICOS LIMITADA - 53.235.180/0001-57(D P V PRODUTOS QUIMICOS LIMITADA - 53.235.180/0001-57) - MONETIZAÇÃO",
+      "DDPP2"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "CAR": {
+    "ticker": "CAR",
+    "nome": "Carflix Intermediacao Veiculos",
+    "aliases": [
+      "CAR",
+      "CARFLIX INTERMEDIACAO DE VEICULOS AUTOMOTORES S.A.",
+      "Carflix Intermediacao Veiculos"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "KCE": {
+    "ticker": "KCE",
+    "nome": "KCE Logistics",
+    "aliases": [
+      "KCE",
+      "KCE LOGISTICS(KCE LOGISTICS)",
+      "KCE Logistics"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "MARI": {
+    "ticker": "MARI",
+    "nome": "Marine Express Importadora",
+    "aliases": [
+      "MARI",
+      "MARINE EXPRESS COMERCIAL IMPORTADORA E EXPORTADORA LTDA",
+      "Marine Express Importadora"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "CSQM": {
+    "ticker": "CSQM",
+    "nome": "Elysion Spa",
+    "aliases": [
+      "CSQM",
+      "Elysion Spa"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "EEAA": {
+    "ticker": "EEAA",
+    "nome": "Emaster Elevadores",
+    "aliases": [
+      "EEAA",
+      "Emaster Elevadores"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "APEQU": {
+    "ticker": "APEQU",
+    "nome": "AP Equip",
+    "aliases": [
+      "AP Equip",
+      "APEQU"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "SEME": {
+    "ticker": "SEME",
+    "nome": "Sementes Premix",
+    "aliases": [
+      "SEME",
+      "SEMENTES PREMIX COMERCIO IMPORTACAO E EXPORTACAO LTDA(SEMENTES PREMIX COMERCIO IMPORTACAO E EXPORTACAO LTDA)",
+      "Sementes Premix"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "ALQU": {
+    "ticker": "ALQU",
+    "nome": "Alquipharma Farmacia Manipulacao",
+    "aliases": [
+      "ALQU",
+      "ALQUIPHARMA FARMACIA DE MANIPULACAO LTDA",
+      "Alquipharma Farmacia Manipulacao"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "DBIC": {
+    "ticker": "DBIC",
+    "nome": "Ducce Bike",
+    "aliases": [
+      "DBIC",
+      "DUCCE BIKE INDUSTRIA E COMERCIO LTDA",
+      "Ducce Bike"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "CDGF": {
+    "ticker": "CDGF",
+    "nome": "CDG Fitness",
+    "aliases": [
+      "CDG Fitness",
+      "CDGF"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "NVYK": {
+    "ticker": "NVYK",
+    "nome": "Nova York Voce",
+    "aliases": [
+      "NVYK",
+      "Nova York Voce",
+      "Nova York e Voce"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "IOAM": {
+    "ticker": "IOAM",
+    "nome": "IOA Maringá",
+    "aliases": [
+      "IOA MARINGÁ",
+      "IOA Maringá",
+      "IOAM"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "STUD": {
+    "ticker": "STUD",
+    "nome": "Studio Henrique Hoffman",
+    "aliases": [
+      "STUD",
+      "STUDIO HENRIQUE HOFFMAN ARQUITETURA ARTE DESIGN PAISAGISMO URBANISMO LTDA",
+      "Studio Henrique Hoffman"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "TSTE": {
+    "ticker": "TSTE",
+    "nome": "TS Teck",
+    "aliases": [
+      "TS TECK - COMERCIO E LOCACAO DE EQUIPAMENTOS LTDA",
+      "TS Teck",
+      "TSTE"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "RDOP": {
+    "ticker": "RDOP",
+    "nome": "RDO PRO",
+    "aliases": [
+      "RDO PRO",
+      "RDOP"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "CHCI": {
+    "ticker": "CHCI",
+    "nome": "Cape Heating Cooling",
+    "aliases": [
+      "CHCI",
+      "Cape Heating Cooling",
+      "Cape heating & cooling inc"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "REVI": {
+    "ticker": "REVI",
+    "nome": "Revinte Pisos Revestimentos",
+    "aliases": [
+      "REVI",
+      "REVINTE PISOS E REVESTIMENTOS LTDA(REVINTE PISOS E REVESTIMENTOS LTDA - 32.683.223/0001-97)",
+      "Revinte Pisos Revestimentos"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "SII": {
+    "ticker": "SII",
+    "nome": "SOL Interiors",
+    "aliases": [
+      "SII",
+      "SOL INTERIORS(SOL INTERIORS)",
+      "SOL Interiors"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "MTCM": {
+    "ticker": "MTCM",
+    "nome": "Metal",
+    "aliases": [
+      "METAL COMERCIO LTDA",
+      "MTCM",
+      "Metal"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "GSC": {
+    "ticker": "GSC",
+    "nome": "Geomat",
+    "aliases": [
+      "GEOMAT SOCIEDADE E COMERCIO LTDA",
+      "GSC",
+      "Geomat"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "LATI": {
+    "ticker": "LATI",
+    "nome": "Laticinios Moedense",
+    "aliases": [
+      "LATI",
+      "LATICINIOS MOEDENSE LTDA",
+      "Laticinios Moedense"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "TROPM": {
+    "ticker": "TROPM",
+    "nome": "Tropical Magic Alimentos",
+    "aliases": [
+      "TROPICAL & MAGIC DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+      "TROPM",
+      "Tropical Magic Alimentos"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "AICE": {
+    "ticker": "AICE",
+    "nome": "Audiofrahm Eletroeletronicos",
+    "aliases": [
+      "AICE",
+      "AUDIOFRAHM INDUSTRIA E COMERCIO DE ELETROELETRONICOS LTDA",
+      "Audiofrahm Eletroeletronicos"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "JNV": {
+    "ticker": "JNV",
+    "nome": "Ravi Tecidos",
+    "aliases": [
+      "JNV",
+      "Ravi Tecidos"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "HANA": {
+    "ticker": "HANA",
+    "nome": "Hanaro",
+    "aliases": [
+      "HANA",
+      "Hanaro"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "CVSN": {
+    "ticker": "CVSN",
+    "nome": "Criativ Brindes",
+    "aliases": [
+      "CVSN",
+      "Criativ Brindes",
+      "[ENCANTA +] Criativ Brindes"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "KRNS": {
+    "ticker": "KRNS",
+    "nome": "Kronos",
+    "aliases": [
+      "KRNS",
+      "Kronos"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "MINU": {
+    "ticker": "MINU",
+    "nome": "Minussi Home",
+    "aliases": [
+      "MINU",
+      "Minussi Home"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "MTCL": {
+    "ticker": "MTCL",
+    "nome": "Metalurgica Couselo",
+    "aliases": [
+      "METALURGICA COUSELO LTDA",
+      "MTCL",
+      "Metalurgica Couselo"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "G6S": {
+    "ticker": "G6S",
+    "nome": "G6 Sva",
+    "aliases": [
+      "G6 Sva",
+      "G6S"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "GIGA": {
+    "ticker": "GIGA",
+    "nome": "Gigaclima",
+    "aliases": [
+      "GIGA",
+      "GIGACLIMA - INDUSTRIA E COMERCIO LTDA",
+      "Gigaclima"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "AXSI": {
+    "ticker": "AXSI",
+    "nome": "Axsis Consultoria Supply",
+    "aliases": [
+      "AXSI",
+      "AXSIS CONSULTORIA EM SUPPLY CHAIN LTDA.",
+      "Axsis Consultoria Supply"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "TRO": {
+    "ticker": "TRO",
+    "nome": "Tropical Magic",
+    "aliases": [
+      "TRO",
+      "Tropical & Magic",
+      "Tropical Magic"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "FBNT": {
+    "ticker": "FBNT",
+    "nome": "Fibranetbr",
+    "aliases": [
+      "FBNT",
+      "Fibranetbr",
+      "Fibranetbr Tecnologia"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "ALUG": {
+    "ticker": "ALUG",
+    "nome": "Alugtec Locacao Maquinas",
+    "aliases": [
+      "ALUG",
+      "ALUGTEC LOCACAO DE MAQUINAS E EQUIPAMENTOS LTDA - 07.551.124/0001-04(ALUGTEC LOCACAO DE MAQUINAS E EQUIPAMENTOS LTDA - 07.551.124/0001-04) - MONETIZAÇÃO",
+      "Alugtec Locacao Maquinas"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "SUPRI": {
+    "ticker": "SUPRI",
+    "nome": "Suprimedico",
+    "aliases": [
+      "SUPRI",
+      "Suprimedico"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "DER": {
+    "ticker": "DER",
+    "nome": "Dermocosmetic Beleza",
+    "aliases": [
+      "DER",
+      "DERMOCOSMETIC COMERCIO DE PRODUTOS DE BELEZA LTDA",
+      "Dermocosmetic Beleza"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "CTVS": {
+    "ticker": "CTVS",
+    "nome": "Centro Visão",
+    "aliases": [
+      "CENTRO VISÃO",
+      "CTVS",
+      "Centro Visão"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "RVSV": {
+    "ticker": "RVSV",
+    "nome": "Reveservice",
+    "aliases": [
+      "RVSV",
+      "Reveservice",
+      "Reveservice - Revestimentos"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "BLCF1": {
+    "ticker": "BLCF1",
+    "nome": "Belô Café",
+    "aliases": [
+      "BLCF1",
+      "Belô Café",
+      "Belô café"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "GIG": {
+    "ticker": "GIG",
+    "nome": "Gigaclima",
+    "aliases": [
+      "GIG",
+      "GIGACLIMA - INDUSTRIA E COMERCIO LTDA",
+      "Gigaclima"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "OTMT": {
+    "ticker": "OTMT",
+    "nome": "Outmat",
+    "aliases": [
+      "OTMT",
+      "OUTMAT (JVL INDUSTRIA)",
+      "Outmat"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "PLZZ": {
+    "ticker": "PLZZ",
+    "nome": "Palazzo Prado",
+    "aliases": [
+      "PALAZZO PRADO LTDA",
+      "PLZZ",
+      "Palazzo Prado"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "BLC": {
+    "ticker": "BLC",
+    "nome": "Beauty Labs Cosmeticos",
+    "aliases": [
+      "BEAUTY LABS COSMETICOS LTDA",
+      "BLC",
+      "Beauty Labs Cosmeticos"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "ENO": {
+    "ticker": "ENO",
+    "nome": "Enoteca Decanter",
+    "aliases": [
+      "ENO",
+      "Enoteca Decanter"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "EZBU": {
+    "ticker": "EZBU",
+    "nome": "Espaço Zabeu",
+    "aliases": [
+      "ESPAÇO ZABEU",
+      "EZBU",
+      "Espaço Zabeu"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "MCAT": {
+    "ticker": "MCAT",
+    "nome": "Meca Automatizadores",
+    "aliases": [
+      "MCAT",
+      "MECA AUTOMATIZADORES",
+      "Meca Automatizadores"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "SAME": {
+    "ticker": "SAME",
+    "nome": "Sameach Acessorios",
+    "aliases": [
+      "SAME",
+      "SAMEACH INDUSTRIA E COMERCIO DE ACESSORIOS LTDA(SAMEACH INDUSTRIA E COMERCIO DE ACESSORIOS LTDA)",
+      "Sameach Acessorios"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "RPRE": {
+    "ticker": "RPRE",
+    "nome": "RPS Revestimentos Pisos",
+    "aliases": [
+      "RPRE",
+      "RPS REVESTIMENTOS DE PISOS EPOXI LTDA - 15.706.459/0001-82(RPS REVESTIMENTOS DE PISOS EPOXI LTDA - 15.706.459/0001-82) - MONETIZAÇÃO",
+      "RPS Revestimentos Pisos"
+    ],
+    "gerencia": "billions",
+    "coord": "ventura",
+    "fonte": "flow"
+  },
+  "GEO": {
+    "ticker": "GEO",
+    "nome": "Geomat",
+    "aliases": [
+      "GEO",
+      "GEOMAT SOCIEDADE E COMERCIO - E-COMMERCE",
+      "Geomat"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "COMP": {
+    "ticker": "COMP",
+    "nome": "Compass Logistica",
+    "aliases": [
+      "COMP",
+      "COMPASS LOGISTICA LTDA",
+      "Compass Logistica"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "PGQ": {
+    "ticker": "PGQ",
+    "nome": "PG Quimica",
+    "aliases": [
+      "PG QUIMICA LTDA",
+      "PG Quimica",
+      "PGQ"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "APEQ": {
+    "ticker": "APEQ",
+    "nome": "AP Equip",
+    "aliases": [
+      "AP Equip",
+      "APEQ"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "PSM": {
+    "ticker": "PSM",
+    "nome": "PSM Professional Services",
+    "aliases": [
+      "PSM",
+      "PSM Professional Services",
+      "PSM. COM PROFESSIONAL SERVICES MANAGEMENT INFORMATICA LTDA"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "RLXFL": {
+    "ticker": "RLXFL",
+    "nome": "RLX Fluidos Refrigerantes",
+    "aliases": [
+      "RLX Fluidos Refrigerantes",
+      "RLXFL"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "PTNB": {
+    "ticker": "PTNB",
+    "nome": "Prata Nobre",
+    "aliases": [
+      "PRATA NOBRE",
+      "PTNB",
+      "Prata Nobre"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "VLOC": {
+    "ticker": "VLOC",
+    "nome": "Vloca",
+    "aliases": [
+      "VLOC",
+      "Vloca",
+      "Vloca - Aluguel de Motos"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "FIEE": {
+    "ticker": "FIEE",
+    "nome": "Fiberwan Eletronicos",
+    "aliases": [
+      "FIBERWAN INDUSTRIA DE EQUIPAMENTOS ELETRONICOS LTDA",
+      "FIEE",
+      "Fiberwan Eletronicos"
+    ],
+    "gerencia": "billions",
+    "coord": "duarte",
+    "fonte": "flow"
+  },
+  "TWAY": {
+    "ticker": "TWAY",
+    "nome": "THE WAY Concierge",
+    "aliases": [
+      "THE WAY CONCIERGE MEDICINE",
+      "THE WAY Concierge",
+      "TWAY"
+    ],
+    "gerencia": "billions",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "FIBR": {
+    "ticker": "FIBR",
+    "nome": "FIBRALINK SERVICOS DE TECNOLOGIA DA INFORMACAO LTDA",
+    "aliases": [
+      "FIBRALINK SERVICOS DE TECNOLOGIA DA INFORMACAO LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MEND1": {
+    "ticker": "MEND1",
+    "nome": "MENDES & CIA TRANSPORTES E SOLUCOES LOGISTICAS LTDA",
+    "aliases": [
+      "MENDES & CIA TRANSPORTES E SOLUCOES LOGISTICAS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "CRI": {
+    "ticker": "CRI",
+    "nome": "Criativa Planejados",
+    "aliases": [
+      "Criativa Planejados"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "EGS": {
+    "ticker": "EGS",
+    "nome": "ESCOLA GREMIO SINOP LTDA",
+    "aliases": [
+      "ESCOLA GREMIO SINOP LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "ALUM": {
+    "ticker": "ALUM",
+    "nome": "ALUMTECH COMERCIO LTDA",
+    "aliases": [
+      "ALUMTECH COMERCIO LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "PSCO": {
+    "ticker": "PSCO",
+    "nome": "PSM. COM PROFESSIONAL SERVICES MANAGEMENT INFORMATICA LTDA - Profissional de Gestão de Mídia Paga - Deal: 00c40883-fd74-491c-b459-6a848cfb5463",
+    "aliases": [
+      "PSM. COM PROFESSIONAL SERVICES MANAGEMENT INFORMATICA LTDA - Profissional de Gestão de Mídia Paga - Deal: 00c40883-fd74-491c-b459-6a848cfb5463"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "RAD": {
+    "ticker": "RAD",
+    "nome": "Radiante Centro Educacional",
+    "aliases": [
+      "Radiante Centro Educacional"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "PGQU": {
+    "ticker": "PGQU",
+    "nome": "PG QUIMICA LTDA",
+    "aliases": [
+      "PG QUIMICA LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "FBLS": {
+    "ticker": "FBLS",
+    "nome": "FABIO LUCHESI (Primeset)",
+    "aliases": [
+      "FABIO LUCHESI (Primeset)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "GREE": {
+    "ticker": "GREE",
+    "nome": "GREEN WAY INSULATION(GREEN WAY INSULATION)",
+    "aliases": [
+      "GREEN WAY INSULATION(GREEN WAY INSULATION)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "AERO": {
+    "ticker": "AERO",
+    "nome": "AERO TD ESCOLA DE AVIACAO CIVIL LTDA",
+    "aliases": [
+      "AERO TD ESCOLA DE AVIACAO CIVIL LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "DALP": {
+    "ticker": "DALP",
+    "nome": "DALPACK COMERCIO ELETRONICO LTDA(DALPACK COMERCIO ELETRONICO LTDA - 42.458.501/0001-66)",
+    "aliases": [
+      "DALPACK COMERCIO ELETRONICO LTDA(DALPACK COMERCIO ELETRONICO LTDA - 42.458.501/0001-66)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "VCMU": {
+    "ticker": "VCMU",
+    "nome": "VCA MUSIC LTDA",
+    "aliases": [
+      "VCA MUSIC LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "BMTE1": {
+    "ticker": "BMTE1",
+    "nome": "BMB TECIDOS LTDA",
+    "aliases": [
+      "BMB TECIDOS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "TFCR": {
+    "ticker": "TFCR",
+    "nome": "TERRA FERTIL COM E REPRES LTDA",
+    "aliases": [
+      "TERRA FERTIL COM E REPRES LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "CAP": {
+    "ticker": "CAP",
+    "nome": "Capricho a Toa",
+    "aliases": [
+      "Capricho a Toa"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "PRI": {
+    "ticker": "PRI",
+    "nome": "Prime Dent",
+    "aliases": [
+      "Prime Dent"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "VISOF": {
+    "ticker": "VISOF",
+    "nome": "VISOFLEX PORTAS E PORTOES LTDA",
+    "aliases": [
+      "VISOFLEX PORTAS E PORTOES LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "ONCO": {
+    "ticker": "ONCO",
+    "nome": "ONCO IMPORT ASSESSORIA E CONSULTORIA LTDA - Executar - 7f35366e-71bb-4277-a0de-1577e92d1e0b",
+    "aliases": [
+      "ONCO IMPORT ASSESSORIA E CONSULTORIA LTDA - Executar - 7f35366e-71bb-4277-a0de-1577e92d1e0b"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "BARTH": {
+    "ticker": "BARTH",
+    "nome": "IBarth",
+    "aliases": [
+      "IBarth"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "DYDY": {
+    "ticker": "DYDY",
+    "nome": "DYDYO",
+    "aliases": [
+      "DYDYO"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "COLI": {
+    "ticker": "COLI",
+    "nome": "COLINA DOS IPES - COMERCIO E ADMINISTRACAO DE PLANOS E ASSISTENCIA FUNERAL LTDA",
+    "aliases": [
+      "COLINA DOS IPES - COMERCIO E ADMINISTRACAO DE PLANOS E ASSISTENCIA FUNERAL LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "CAPR": {
+    "ticker": "CAPR",
+    "nome": "CAPRICHO A TOA SERVICOS E COMERCIO DE CONFECCOES LTDA",
+    "aliases": [
+      "CAPRICHO A TOA SERVICOS E COMERCIO DE CONFECCOES LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MDS": {
+    "ticker": "MDS",
+    "nome": "MD SERVICOS E COMERCIO DE PRODUTOS DE LABORATORIO LTDA",
+    "aliases": [
+      "MD SERVICOS E COMERCIO DE PRODUTOS DE LABORATORIO LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "DCPB": {
+    "ticker": "DCPB",
+    "nome": "DERMOCOSMETIC COMERCIO DE PRODUTOS DE BELEZA LTDA",
+    "aliases": [
+      "DERMOCOSMETIC COMERCIO DE PRODUTOS DE BELEZA LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "FARE1": {
+    "ticker": "FARE1",
+    "nome": "FARES AQUINO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "aliases": [
+      "FARES AQUINO SOCIEDADE INDIVIDUAL DE ADVOCACIA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "CDSI": {
+    "ticker": "CDSI",
+    "nome": "CENTRO DO SILICONE",
+    "aliases": [
+      "CENTRO DO SILICONE"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "SUPR1": {
+    "ticker": "SUPR1",
+    "nome": "SUPRIMEDICO - COMERCIO DE ARTIGOS E EQUIPAMENTOS MEDICOS E HOSPITALARES LTDA(SUPRIMEDICO - COMERCIO DE ARTIGOS E EQUIPAMENTOS MEDICOS E HOSPITALARES LTDA - 35.491.267/0001-03)",
+    "aliases": [
+      "SUPRIMEDICO - COMERCIO DE ARTIGOS E EQUIPAMENTOS MEDICOS E HOSPITALARES LTDA(SUPRIMEDICO - COMERCIO DE ARTIGOS E EQUIPAMENTOS MEDICOS E HOSPITALARES LTDA - 35.491.267/0001-03)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "EXHD": {
+    "ticker": "EXHD",
+    "nome": "Exclusiva Home e Decor - Metalurgica G.l.a.",
+    "aliases": [
+      "Exclusiva Home e Decor - Metalurgica G.l.a."
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "SSF": {
+    "ticker": "SSF",
+    "nome": "SOMA SOLUCOES FINANCEIRAS LTDA",
+    "aliases": [
+      "SOMA SOLUCOES FINANCEIRAS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "SKY": {
+    "ticker": "SKY",
+    "nome": "SKYFIT FRANCHISING LTDA.",
+    "aliases": [
+      "SKYFIT FRANCHISING LTDA."
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "CIVC": {
+    "ticker": "CIVC",
+    "nome": "CONSTRUTORA E INCORPORADORA VILELA CAMPOS LTDA.",
+    "aliases": [
+      "CONSTRUTORA E INCORPORADORA VILELA CAMPOS LTDA."
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "VIS": {
+    "ticker": "VIS",
+    "nome": "VISOFLEX PORTAS E PORTOES LTDA",
+    "aliases": [
+      "VISOFLEX PORTAS E PORTOES LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "smarito",
+    "fonte": "flow"
+  },
+  "BRD": {
+    "ticker": "BRD",
+    "nome": "BR Distribuidora de Piercing",
+    "aliases": [
+      "BR Distribuidora de Piercing"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "AIN": {
+    "ticker": "AIN",
+    "nome": "AUDDAS INTERMEDIACAO DE NEGOCIOS LTDA",
+    "aliases": [
+      "AUDDAS INTERMEDIACAO DE NEGOCIOS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "BRHS": {
+    "ticker": "BRHS",
+    "nome": "BERRYGOOD COMERCIO, IMPORTACAO E DISTRIBUICAO DE FRUTAS LTDA.",
+    "aliases": [
+      "BERRYGOOD COMERCIO, IMPORTACAO E DISTRIBUICAO DE FRUTAS LTDA."
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "INST1": {
+    "ticker": "INST1",
+    "nome": "INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA(INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA",
+    "aliases": [
+      "INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA(INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MSYS": {
+    "ticker": "MSYS",
+    "nome": "MSYS VISTORIAS LTDA",
+    "aliases": [
+      "MSYS VISTORIAS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "BNTE": {
+    "ticker": "BNTE",
+    "nome": "BNU TECNOLOGIA EM INSTALACOES ELETRICAS E SEGURANCA LTDA (Global Sonic)",
+    "aliases": [
+      "BNU TECNOLOGIA EM INSTALACOES ELETRICAS E SEGURANCA LTDA (Global Sonic)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "BTD": {
+    "ticker": "BTD",
+    "nome": "BINARIO TECNOLOGIA DISTRIBUIDORA LTDA",
+    "aliases": [
+      "BINARIO TECNOLOGIA DISTRIBUIDORA LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "GPTY": {
+    "ticker": "GPTY",
+    "nome": "CH BILHARES - GP TOYS",
+    "aliases": [
+      "CH BILHARES - GP TOYS"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "CBN": {
+    "ticker": "CBN",
+    "nome": "CENTRO BRASILIENSE DE NEFROLOGIA LTDA",
+    "aliases": [
+      "CENTRO BRASILIENSE DE NEFROLOGIA LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "FIEF": {
+    "ticker": "FIEF",
+    "nome": "FLORESTEC INDUSTRIA DE EQUIPAMENTOS FLORESTAIS LTDA",
+    "aliases": [
+      "FLORESTEC INDUSTRIA DE EQUIPAMENTOS FLORESTAIS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "TAWV": {
+    "ticker": "TAWV",
+    "nome": "TAWÁ VEÍCULOS",
+    "aliases": [
+      "TAWÁ VEÍCULOS"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "GEW": {
+    "ticker": "GEW",
+    "nome": "G.E.W.T.",
+    "aliases": [
+      "G.E.W.T."
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "BUBL": {
+    "ticker": "BUBL",
+    "nome": "BUBLU",
+    "aliases": [
+      "BUBLU"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "NOVAY": {
+    "ticker": "NOVAY",
+    "nome": "Nova York e Voce",
+    "aliases": [
+      "Nova York e Voce"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "USJR": {
+    "ticker": "USJR",
+    "nome": "Use Jr",
+    "aliases": [
+      "Use Jr"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "PREV": {
+    "ticker": "PREV",
+    "nome": "PREVENT AUDIO COMERCIO DE APARELHOS AUDITIVOS LTDA - Executar - 6c9099c0-7f7e-49a2-8b46-70204532a192",
+    "aliases": [
+      "PREVENT AUDIO COMERCIO DE APARELHOS AUDITIVOS LTDA - Executar - 6c9099c0-7f7e-49a2-8b46-70204532a192"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "FERN": {
+    "ticker": "FERN",
+    "nome": "Fernando Moveis e Eletro",
+    "aliases": [
+      "Fernando Moveis e Eletro"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "FTTR1": {
+    "ticker": "FTTR1",
+    "nome": "FTM TRANSPORTES LTDA",
+    "aliases": [
+      "FTM TRANSPORTES LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "JFDS": {
+    "ticker": "JFDS",
+    "nome": "Jundia Foods",
+    "aliases": [
+      "Jundia Foods"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "ELEV1": {
+    "ticker": "ELEV1",
+    "nome": "ELEVATE INCORPORADORA E CONSTRUTORA LTDA - Executar - 5c4ea8dc-633f-49c3-96d8-c158a68d95ee",
+    "aliases": [
+      "ELEVATE INCORPORADORA E CONSTRUTORA LTDA - Executar - 5c4ea8dc-633f-49c3-96d8-c158a68d95ee"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "GLO": {
+    "ticker": "GLO",
+    "nome": "Global Cotton Ltda",
+    "aliases": [
+      "Global Cotton Ltda"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "AQTR": {
+    "ticker": "AQTR",
+    "nome": "Aquatro Suprimentos",
+    "aliases": [
+      "Aquatro Suprimentos"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "SIGO": {
+    "ticker": "SIGO",
+    "nome": "SIGO ERP(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)",
+    "aliases": [
+      "SIGO ERP(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MAID": {
+    "ticker": "MAID",
+    "nome": "MAIDPAD - ASSESSORIA BYLINE (MAIDPAD)",
+    "aliases": [
+      "MAIDPAD - ASSESSORIA BYLINE (MAIDPAD)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "EXCL": {
+    "ticker": "EXCL",
+    "nome": "Excel Group",
+    "aliases": [
+      "Excel Group"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "TECH": {
+    "ticker": "TECH",
+    "nome": "AYA ENGENHARIA E PROJETOS LTDA",
+    "aliases": [
+      "AYA ENGENHARIA E PROJETOS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MBPH": {
+    "ticker": "MBPH",
+    "nome": "Mobile Phone",
+    "aliases": [
+      "Mobile Phone"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MNCH": {
+    "ticker": "MNCH",
+    "nome": "MANCHESTER DISTRIBUIDORA DE FERRO E ACO LTDA",
+    "aliases": [
+      "MANCHESTER DISTRIBUIDORA DE FERRO E ACO LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "SVJD": {
+    "ticker": "SVJD",
+    "nome": "Sorvetes Jundia",
+    "aliases": [
+      "Sorvetes Jundia"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "VLTE": {
+    "ticker": "VLTE",
+    "nome": "V.L.O TEXTIL INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA (V.L.O TEXTIL INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA)",
+    "aliases": [
+      "V.L.O TEXTIL INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA (V.L.O TEXTIL INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "SPSN": {
+    "ticker": "SPSN",
+    "nome": "Spa Sensoria",
+    "aliases": [
+      "Spa Sensoria"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "NEWS": {
+    "ticker": "NEWS",
+    "nome": "New Safes",
+    "aliases": [
+      "New Safes"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "ECOS": {
+    "ticker": "ECOS",
+    "nome": "ECOSTORAGE SERVICOS LTDA",
+    "aliases": [
+      "ECOSTORAGE SERVICOS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "ACCE": {
+    "ticker": "ACCE",
+    "nome": "ACCENTURE PARTICIPACOES LTDA(ACCENTURE PARTICIPACOES LTDA - 54.271.277/0001-88)",
+    "aliases": [
+      "ACCENTURE PARTICIPACOES LTDA(ACCENTURE PARTICIPACOES LTDA - 54.271.277/0001-88)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "LIC": {
+    "ticker": "LIC",
+    "nome": "LF2 - INDUSTRIA E COMERCIO LTDA",
+    "aliases": [
+      "LF2 - INDUSTRIA E COMERCIO LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "IGB": {
+    "ticker": "IGB",
+    "nome": "INSTITUTO GRUPO BOTICARIO",
+    "aliases": [
+      "INSTITUTO GRUPO BOTICARIO"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "AACE": {
+    "ticker": "AACE",
+    "nome": "AMBIENT AIR COMERCIAL DE ELETRODOMESTICOS LTDA",
+    "aliases": [
+      "AMBIENT AIR COMERCIAL DE ELETRODOMESTICOS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MSZB": {
+    "ticker": "MSZB",
+    "nome": "Massimo Zanetti Beverage Brasil Ltda",
+    "aliases": [
+      "Massimo Zanetti Beverage Brasil Ltda"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "PERQ": {
+    "ticker": "PERQ",
+    "nome": "PERNAMBUCO QUIMICA S A",
+    "aliases": [
+      "PERNAMBUCO QUIMICA S A"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "AAD": {
+    "ticker": "AAD",
+    "nome": "M. RESENDE & CARVALHO EQUIPAMENTOS AGROINDUSTRIAIS LTDA",
+    "aliases": [
+      "M. RESENDE & CARVALHO EQUIPAMENTOS AGROINDUSTRIAIS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "TEN": {
+    "ticker": "TEN",
+    "nome": "Tend Tudo Variedades",
+    "aliases": [
+      "Tend Tudo Variedades"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "O3NT": {
+    "ticker": "O3NT",
+    "nome": "O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA(O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA - 10.782.491/0001-23)",
+    "aliases": [
+      "O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA(O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA - 10.782.491/0001-23)"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MACAE": {
+    "ticker": "MACAE",
+    "nome": "CENTRO AUDITIVO MACAE",
+    "aliases": [
+      "CENTRO AUDITIVO MACAE"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "NWON": {
+    "ticker": "NWON",
+    "nome": "NewOn",
+    "aliases": [
+      "NewOn"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MLPA": {
+    "ticker": "MLPA",
+    "nome": "ML PARTICIPACOES LTDA",
+    "aliases": [
+      "ML PARTICIPACOES LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "SOTB": {
+    "ticker": "SOTB",
+    "nome": "SOTOBI MAQUINAS E ACESSORIOS PARA FABRICAS DE BLOCOS LTDA",
+    "aliases": [
+      "SOTOBI MAQUINAS E ACESSORIOS PARA FABRICAS DE BLOCOS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "NTCLN": {
+    "ticker": "NTCLN",
+    "nome": "Natuclean",
+    "aliases": [
+      "Natuclean"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MCS": {
+    "ticker": "MCS",
+    "nome": "MALBORK CORRETORA DE SEGUROS LTDA",
+    "aliases": [
+      "MALBORK CORRETORA DE SEGUROS LTDA"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "DPON": {
+    "ticker": "DPON",
+    "nome": "DPONET DESENVOLVIMENTO DE SISTEMAS E CONSULTORIA EM SEGURANCA DA INFORMACAO LTDA.",
+    "aliases": [
+      "DPONET DESENVOLVIMENTO DE SISTEMAS E CONSULTORIA EM SEGURANCA DA INFORMACAO LTDA."
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "MOD": {
+    "ticker": "MOD",
+    "nome": "Modular Estruturas",
+    "aliases": [
+      "Modular Estruturas"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "SOL": {
+    "ticker": "SOL",
+    "nome": "Solucao Locadora",
+    "aliases": [
+      "Solucao Locadora"
+    ],
+    "gerencia": "invictus",
+    "coord": "outra",
+    "fonte": "flow"
+  },
+  "USBR": {
+    "ticker": "USBR",
+    "nome": "USO Brasil",
+    "aliases": [
+      "USO Brasil"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "SSEC": {
+    "ticker": "SSEC",
+    "nome": "Sustenta",
+    "aliases": [
+      "Sustenta"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "ASSO": {
+    "ticker": "ASSO",
+    "nome": "Associacao Alternativa Apoio",
+    "aliases": [
+      "Associacao Alternativa Apoio"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "DATI": {
+    "ticker": "DATI",
+    "nome": "Dispara AI Informacao",
+    "aliases": [
+      "Dispara AI Informacao"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "VINI": {
+    "ticker": "VINI",
+    "nome": "Viniltec Piscinas",
+    "aliases": [
+      "Viniltec Piscinas"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "BCRD": {
+    "ticker": "BCRD",
+    "nome": "Biocerrado",
+    "aliases": [
+      "Biocerrado"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "UNIDT": {
+    "ticker": "UNIDT",
+    "nome": "Universo",
+    "aliases": [
+      "Universo"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "HOTE": {
+    "ticker": "HOTE",
+    "nome": "Hotel Ponto LUZ",
+    "aliases": [
+      "Hotel Ponto LUZ"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "MEGA": {
+    "ticker": "MEGA",
+    "nome": "Mega Leiloes",
+    "aliases": [
+      "Mega Leiloes"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "KELL": {
+    "ticker": "KELL",
+    "nome": "Kelldrin",
+    "aliases": [
+      "Kelldrin"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "ISI": {
+    "ticker": "ISI",
+    "nome": "IOA Style Imperatriz",
+    "aliases": [
+      "IOA Style Imperatriz"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "WEMK": {
+    "ticker": "WEMK",
+    "nome": "WE Mark",
+    "aliases": [
+      "WE Mark"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "PRO": {
+    "ticker": "PRO",
+    "nome": "Eleva",
+    "aliases": [
+      "Eleva"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "ORIO": {
+    "ticker": "ORIO",
+    "nome": "Orion Auto Parts",
+    "aliases": [
+      "Orion Auto Parts"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "MMDE": {
+    "ticker": "MMDE",
+    "nome": "Mony Moveis Decoracao",
+    "aliases": [
+      "Mony Moveis Decoracao"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "EURO": {
+    "ticker": "EURO",
+    "nome": "Euro Colchões",
+    "aliases": [
+      "Euro Colchões"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  },
+  "AYAC": {
+    "ticker": "AYAC",
+    "nome": "Aya Cleaning",
+    "aliases": [
+      "Aya Cleaning"
+    ],
+    "gerencia": "nao_classificado",
+    "coord": "nao_classificado",
+    "fonte": "clientes"
+  }
+}

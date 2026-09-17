@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pauta WEB/SEO | Colli&amp;Co</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --v4-red: #e50914;
+      --v4-red-hover: #c40712;
+      --v4-orange: #ff481f;
+      --v4-flame: #f0141e;
+      --v4-dark: #280001;
+      --v4-darker: #280000;
+      --v4-grey: #e1dcdc;
+      --v4-white: #ffffff;
+      --v4-cream: #ffebc8;
+      --v4-salmon: #ffb4a0;
+      --ink: #141414;
+      --ink-soft: #5a5a5a;
+      --line: rgba(20, 20, 20, .12);
+      --radius: 22px;
+      --radius-pill: 999px;
+      --hero: radial-gradient(120% 130% at 50% -10%, #ff5a2c 0%, #e50914 30%, #b00610 62%, #280001 100%);
+      --ok: #1f9d55;
+      --warn: #e9a13b;
+      --bad: #f0141e;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      background: #f5f4f2;
+      color: var(--ink);
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    body.locked { overflow: hidden; }
+    button, input, select { font-family: inherit; }
+    a { color: var(--v4-red); }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 28px;
+      padding: 5px 12px;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(255,255,255,.35);
+      background: rgba(255,255,255,.08);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .gate {
+      position: fixed;
+      inset: 0;
+      z-index: 40;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: var(--hero);
+    }
+    .gate[hidden] { display: none; }
+    .gate-card {
+      width: min(440px, 100%);
+      padding: 36px 32px 32px;
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.06);
+      backdrop-filter: blur(14px) saturate(140%);
+      border: 1px solid rgba(255,255,255,.35);
+      box-shadow: inset 0 0 150px rgba(255,255,255,.13), -5px 5px 20px rgba(0,0,0,.18);
+      color: #fff;
+    }
+    .gate-card img { width: 155px; height: 48px; object-fit: contain; }
+    .gate-card h1 {
+      margin: 18px 0 8px;
+      font-size: 34px;
+      line-height: 1.02;
+      letter-spacing: -.04em;
+    }
+    .gate-card p { margin: 0 0 18px; color: rgba(255,255,255,.74); font-weight: 300; }
+    .gate-card label { display: block; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px; }
+    .gate-card input {
+      width: 100%;
+      height: 48px;
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 14px;
+      background: rgba(255,255,255,.1);
+      color: #fff;
+      padding: 0 14px;
+      margin-bottom: 16px;
+    }
+    .gate-card button, .btn {
+      height: 48px;
+      border: 0;
+      border-radius: var(--radius-pill);
+      background: #fff;
+      color: var(--v4-red);
+      font-weight: 700;
+      padding: 0 22px;
+      cursor: pointer;
+    }
+    .gate-error { color: var(--v4-cream); font-size: 14px; min-height: 20px; }
+    .app[hidden] { display: none; }
+    .hero {
+      background: var(--hero);
+      color: #fff;
+      padding: 28px 32px 36px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-inner { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; display: flex; justify-content: space-between; gap: 24px; align-items: flex-end; }
+    .hero h1 { margin: 12px 0 8px; font-size: 44px; line-height: .98; letter-spacing: -.05em; }
+    .hero .lede { margin: 0; max-width: 640px; color: rgba(255,255,255,.78); font-weight: 300; font-size: 18px; }
+    .hero-logo { width: 155px; height: 48px; object-fit: contain; }
+    .sphere {
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+      background: radial-gradient(circle at 35% 30%, rgba(255,255,255,.38), rgba(255,255,255,.045) 48%, transparent 66%);
+      border: 1px solid rgba(255,255,255,.24);
+    }
+    .sphere.a { width: 220px; height: 220px; right: -40px; top: -70px; }
+    .filters {
+      position: sticky;
+      top: 0;
+      z-index: 8;
+      background: rgba(245,244,242,.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+      padding: 14px 32px 16px;
+    }
+    .filters-inner { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; }
+    .filters label { display: block; font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 4px; }
+    .filters select, .filters input {
+      width: 100%;
+      height: 40px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      padding: 0 10px;
+      color: var(--ink);
+    }
+    .filters .wide { grid-column: span 2; }
+    .filters select[multiple] { height: 84px; padding: 6px 8px; }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 28px 32px 64px; }
+    .placar { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 12px; margin-bottom: 18px; }
+    .metric {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px 16px;
+    }
+    .metric .label { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+    .metric .num { font-family: "IBM Plex Mono", monospace; font-size: 32px; letter-spacing: -.04em; margin-top: 6px; }
+    .metric.bad .num { color: var(--bad); }
+    .metric.ok .num { color: var(--ok); }
+    .callout {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      margin-bottom: 28px;
+    }
+    .callout h2 { margin: 0 0 6px; font-size: 26px; letter-spacing: -.03em; }
+    .callout p { margin: 0; color: var(--ink-soft); }
+    .section-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; margin: 8px 0 14px; }
+    .section-head h2 { margin: 0; font-size: 28px; letter-spacing: -.03em; }
+    .section-head p { margin: 0; color: var(--ink-soft); }
+    .pauta { display: grid; gap: 10px; margin-bottom: 36px; }
+    .pauta-item {
+      display: grid;
+      grid-template-columns: 110px 1fr auto;
+      gap: 14px;
+      align-items: center;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px 16px;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 26px;
+      padding: 0 10px;
+      border-radius: var(--radius-pill);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      background: rgba(229,9,20,.08);
+      color: var(--v4-red);
+    }
+    .pill.late { background: rgba(240,20,30,.12); }
+    .pill.ok { background: rgba(31,157,85,.12); color: var(--ok); }
+    .pauta-item h3 { margin: 0 0 4px; font-size: 16px; }
+    .pauta-item .meta { color: var(--ink-soft); font-size: 13px; }
+    .table-wrap { overflow: auto; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { text-align: left; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); padding: 12px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+    td { padding: 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    tr:last-child td { border-bottom: 0; }
+    td.trecho { max-width: 280px; }
+    .empty { padding: 28px; color: var(--ink-soft); }
+    footer { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; padding: 0 32px 40px; color: var(--ink-soft); font-size: 13px; }
+    footer img { width: 120px; height: 38px; object-fit: contain; }
+    .ghost { background: transparent; border: 1px solid var(--line); color: var(--ink); }
+    .row-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; white-space: nowrap; }
+    .btn-mini {
+      height: 34px;
+      border: 0;
+      border-radius: var(--radius-pill);
+      background: var(--v4-red);
+      color: #fff;
+      font-weight: 700;
+      font-size: 12px;
+      padding: 0 14px;
+      cursor: pointer;
+    }
+    .btn-mini:disabled { opacity: .55; cursor: wait; }
+    .btn-mini.ghost {
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--ink);
+    }
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: rgba(40, 0, 1, .55);
+    }
+    .modal-backdrop[hidden] { display: none; }
+    .modal {
+      width: min(480px, 100%);
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 28px 24px 22px;
+      box-shadow: 0 24px 60px rgba(40,0,1,.28);
+    }
+    .modal h2 { margin: 0 0 8px; font-size: 24px; letter-spacing: -.03em; }
+    .modal p { margin: 0 0 16px; color: var(--ink-soft); }
+    .modal label { display: block; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin: 12px 0 6px; }
+    .modal select, .modal input[type="date"] {
+      width: 100%;
+      height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 0 10px;
+    }
+    .modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
+    .modal-error { min-height: 20px; color: var(--bad); font-size: 13px; margin-top: 8px; }
+    @media (max-width: 1100px) {
+      .filters-inner, .placar { grid-template-columns: repeat(3, minmax(0,1fr)); }
+      .pauta-item { grid-template-columns: 1fr; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body class="locked">
+  <div class="gate" id="gate">
+    <form class="gate-card" id="gateForm">
+      <img src="./assets/colli-white.png" alt="Colli e Co">
+      <p class="eyebrow" style="margin-top:18px">documento interno</p>
+      <h1>Pauta WEB/SEO</h1>
+      <p>Acesso restrito à gestão. Informe a senha para ver a fila.</p>
+      <label for="gatePass">Senha</label>
+      <input id="gatePass" type="password" autocomplete="current-password" required>
+      <button type="submit">Acessar</button>
+      <p class="gate-error" id="gateError"></p>
+    </form>
+  </div>
+
+  <div class="app" id="app" hidden>
+    <header class="hero">
+      <span class="sphere a"></span>
+      <div class="hero-inner">
+        <div>
+          <span class="eyebrow">Colli e Co · WEB/SEO</span>
+          <h1>Pauta WEB/SEO</h1>
+          <p class="lede">Fila dos canais de Chat cruzada com o Ekyte. Sem FUP no Chat. Sem task: Subir no Ekyte. Já resolvido: Ignorar. Snapshot __GENERATED__.</p>
+        </div>
+        <img class="hero-logo" src="./assets/colli-white.png" alt="Colli e Co">
+      </div>
+    </header>
+
+    <div class="filters">
+      <div class="filters-inner">
+        <label>Canal<select id="fCanal"><option value="">Todos</option><option value="suporte">Suporte WEB/SEO</option><option value="cc">CC Web/SEO</option></select></label>
+        <label>Gerência<select id="fGerencia"><option value="">Todas</option><option value="billions">Billions</option><option value="invictus">Invictus</option><option value="exclusive">Exclusive</option><option value="nao_classificado">Sem ticker</option></select></label>
+        <label>Coord. cliente<select id="fCoordCli"><option value="">Todas</option><option value="duarte">Duarte</option><option value="smarito">Smarito</option><option value="ventura">Ventura</option><option value="outra">Outra</option><option value="nao_classificado">Sem ticker</option></select></label>
+        <label>Coord. quem pediu<select id="fCoordPed"><option value="">Todas</option><option value="duarte">Duarte</option><option value="smarito">Smarito</option><option value="ventura">Ventura</option><option value="operacao_web">Operação WEB</option><option value="outra">Outra</option><option value="nao_mapeado">Não mapeado</option></select></label>
+        <label>Período<select id="fPeriodo"><option value="45">45 dias</option><option value="7">7 dias</option><option value="14">14 dias</option><option value="30">30 dias</option><option value="mes">Mês corrente</option><option value="custom">De / até</option></select></label>
+        <label>De<input id="fDe" type="date"></label>
+        <label>Até<input id="fAte" type="date"></label>
+        <label>Prazo Ekyte<select id="fPrazo"><option value="">Qualquer</option><option value="atrasada">Atrasadas agora</option><option value="sem">Sem prazo</option><option value="com">Com prazo no intervalo</option></select></label>
+        <label class="wide">Estado (Ctrl/Cmd multi)<select id="fEstado" multiple>
+          <option value="sem_resposta">Sem resposta</option>
+          <option value="respondida_sem_task">Respondida sem task</option>
+          <option value="task_no_prazo">Task no prazo</option>
+          <option value="task_atrasada">Task atrasada</option>
+          <option value="concluida_no_prazo">Concluída no prazo</option>
+          <option value="concluida_fora">Concluída fora</option>
+          <option value="ignorado">Ignorado</option>
+        </select></label>
+        <label>Respondida<select id="fResp"><option value="">Todas</option><option value="sim">Sim</option><option value="nao">Não</option></select></label>
+        <label>Encaminhada<select id="fEnc"><option value="">Todas</option><option value="sim">Sim</option><option value="nao">Não</option></select></label>
+        <label>OTIF<select id="fOtif"><option value="">Todas</option><option value="sim">Sim</option><option value="nao">Não</option><option value="sem">Sem task</option></select></label>
+        <label>Executor<select id="fExec"><option value="">Todos</option><option value="rafael">Rafael</option><option value="bruno">Bruno</option><option value="outro">Outro</option><option value="sem_task">Sem task</option></select></label>
+        <label class="wide">Busca<input id="fQ" type="search" placeholder="Ticker, cliente, autor ou trecho"></label>
+        <label>Visão<select id="fVisao"><option value="fila">Fila toda</option><option value="pauta">Só pauta</option></select></label>
+        <label>Ignorados<select id="fIgn"><option value="esconder">Esconder</option><option value="incluir">Incluir na fila</option><option value="so">Só ignorados</option></select></label>
+        <label>Ordenar<select id="fSort"><option value="data">Data do pedido</option><option value="gravidade">Gravidade</option><option value="prazo">Prazo Ekyte</option></select></label>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <div class="placar" id="placar"></div>
+      <section class="callout">
+        <div class="eyebrow" style="color:var(--v4-red);border-color:rgba(229,9,20,.18);background:rgba(229,9,20,.07)">leitura da pauta</div>
+        <h2 id="calloutTitle">Carregando</h2>
+        <p id="calloutText"></p>
+      </section>
+
+      <div class="section-head">
+        <div>
+          <h2>Pauta de cobrança</h2>
+          <p>Buracos para o Gustavo fechar. Sem task: Subir no Ekyte. Já resolvido: Ignorar.</p>
+        </div>
+      </div>
+      <div class="pauta" id="pauta"></div>
+
+      <div class="section-head">
+        <div>
+          <h2>Fila completa</h2>
+          <p id="filaCount">Tudo que entrou no snapshot.</p>
+        </div>
+        <button class="btn ghost" type="button" id="btnCsv">Exportar CSV</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Canal</th><th>Data</th><th>Autor</th><th>Coord pediu</th><th>Ticker</th>
+              <th>Cliente</th><th>Gerência</th><th>Coord cliente</th><th>Trecho</th>
+              <th>Respondida</th><th>Encaminhada</th><th>Prazo</th><th>Estado</th><th>Executor</th><th>Chat</th><th>Ação</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <img src="./assets/colli-red.png" alt="Colli e Co">
+      <span>Uso interno · gestão WEB/SEO · sem post no Chat</span>
+    </footer>
+  </div>
+
+  <div class="modal-backdrop" id="ignoreModal" hidden>
+    <form class="modal" id="ignoreForm">
+      <h2>Ignorar pedido</h2>
+      <p id="ignoreHint">Tira da pauta. Serve para o que já foi resolvido sem task. Não posta no Chat.</p>
+      <label for="ignoreMotivo">Motivo</label>
+      <select id="ignoreMotivo">
+        <option value="ja_resolvido">Já resolvido</option>
+        <option value="nao_e_web">Não é demanda WEB</option>
+        <option value="duplicado">Duplicado</option>
+        <option value="outro">Outro</option>
+      </select>
+      <p class="modal-error" id="ignoreError"></p>
+      <div class="modal-actions">
+        <button class="btn ghost" type="button" id="ignoreCancel">Cancelar</button>
+        <button class="btn" type="submit" id="ignoreSubmit">Confirmar</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="modal-backdrop" id="ekyteModal" hidden>
+    <form class="modal" id="ekyteForm">
+      <h2>Subir no Ekyte</h2>
+      <p id="ekyteHint">Cria a task no workspace do cliente. Não posta no Chat.</p>
+      <label for="ekyteExec">Executor</label>
+      <select id="ekyteExec">
+        <option value="rafael">Rafael Lino</option>
+        <option value="bruno">Bruno Sergio</option>
+      </select>
+      <label for="ekyteDue">Prazo</label>
+      <input id="ekyteDue" type="date" required>
+      <p class="modal-error" id="ekyteError"></p>
+      <div class="modal-actions">
+        <button class="btn ghost" type="button" id="ekyteCancel">Cancelar</button>
+        <button class="btn" type="submit" id="ekyteSubmit">Confirmar e criar</button>
+      </div>
+    </form>
+  </div>
+
+  <script id="snapshot" type="application/json">__SNAPSHOT__</script>
+  <script>
+    const PASSWORD = "__PASSWORD__";
+    const SNAP = JSON.parse(document.getElementById("snapshot").textContent);
+    let API_READY = false;
+    let pendingThread = "";
+    let pendingIgnore = "";
+    const ids = ["fCanal","fGerencia","fCoordCli","fCoordPed","fPeriodo","fDe","fAte","fPrazo","fEstado","fResp","fEnc","fOtif","fExec","fQ","fVisao","fIgn","fSort"];
+    const HASH = {
+      canal: "fCanal", gerencia: "fGerencia", coord: "fCoordCli", coord_pediu: "fCoordPed",
+      periodo: "fPeriodo", de: "fDe", ate: "fAte", prazo: "fPrazo", estado: "fEstado",
+      resp: "fResp", enc: "fEnc", otif: "fOtif", exec: "fExec", q: "fQ", visao: "fVisao",
+      ignorados: "fIgn", sort: "fSort"
+    };
+    const ESTADO = {
+      sem_resposta: "Sem resposta",
+      respondida_sem_task: "Resp. sem task",
+      task_no_prazo: "Task no prazo",
+      task_atrasada: "Task atrasada",
+      concluida_no_prazo: "Concluída no prazo",
+      concluida_fora: "Concluída fora",
+      ignorado: "Ignorado"
+    };
+
+    function unlock() {
+      sessionStorage.setItem("web-seo-radar-gate", "1");
+      document.getElementById("gate").hidden = true;
+      document.getElementById("app").hidden = false;
+      document.body.classList.remove("locked");
+      render();
+    }
+    document.getElementById("gateForm").addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const value = document.getElementById("gatePass").value;
+      if (value === PASSWORD) unlock();
+      else document.getElementById("gateError").textContent = "Senha inválida.";
+    });
+
+    function val(id) { return document.getElementById(id).value.trim(); }
+    function selectedMulti(id) {
+      return [...document.getElementById(id).selectedOptions].map(o => o.value).filter(Boolean);
+    }
+    function pad(n) { return String(n).padStart(2, "0"); }
+    function localISO(dt) {
+      return `${dt.getFullYear()}-${pad(dt.getMonth() + 1)}-${pad(dt.getDate())}`;
+    }
+    function inPeriod(iso, periodo, de, ate) {
+      if (!iso) return true;
+      const d = iso.slice(0, 10);
+      const today = new Date();
+      if (periodo === "custom") {
+        if (de && d < de) return false;
+        if (ate && d > ate) return false;
+        return true;
+      }
+      if (periodo === "mes") {
+        return d >= localISO(new Date(today.getFullYear(), today.getMonth(), 1));
+      }
+      const days = Number(periodo || 45);
+      const start = new Date(today.getFullYear(), today.getMonth(), today.getDate() - days);
+      return d >= localISO(start);
+    }
+    function otifOf(row) {
+      if (!row.encaminhada) return "sem";
+      if (row.estado === "concluida_no_prazo" || row.estado === "task_no_prazo") return "sim";
+      return "nao";
+    }
+    function hay(row, q) {
+      if (!q) return true;
+      const blob = [row.ticker, row.cliente, row.autor_nome, row.trecho, row.canal_label].join(" ").toLowerCase();
+      return blob.includes(q.toLowerCase());
+    }
+    function esc(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[ch]));
+    }
+    function daysLabel(row) {
+      const n = Number(row.days_open || 0);
+      if (n <= 0) return "hoje";
+      if (n === 1) return "há 1 dia";
+      return `há ${n} dias`;
+    }
+    function addBusinessDays(days) {
+      const d = new Date();
+      let added = 0;
+      while (added < days) {
+        d.setDate(d.getDate() + 1);
+        const wd = d.getDay();
+        if (wd !== 0 && wd !== 6) added += 1;
+      }
+      return localISO(d);
+    }
+    function ekyteControl(row) {
+      if (row.encaminhada && row.task_url) {
+        return `<a href="${esc(row.task_url)}" target="_blank" rel="noopener">Ekyte</a>`;
+      }
+      if (!row.thread || row.ignorado) return "";
+      return `<button type="button" class="btn-mini js-ekyte" data-thread="${esc(row.thread)}">Subir no Ekyte</button>`;
+    }
+    function rowActions(row) {
+      if (!row.thread) return ekyteControl(row);
+      if (row.ignorado) {
+        return `<button type="button" class="btn-mini ghost js-undo" data-thread="${esc(row.thread)}">Desfazer</button>`;
+      }
+      return `${ekyteControl(row)}<button type="button" class="btn-mini ghost js-ignore" data-thread="${esc(row.thread)}">Ignorar</button>`;
+    }
+    function findPedido(thread) {
+      return (SNAP.pedidos || []).find((row) => row.thread === thread);
+    }
+    function openEkyteModal(thread) {
+      const row = findPedido(thread);
+      if (!row) return;
+      pendingThread = thread;
+      document.getElementById("ekyteHint").textContent = API_READY
+        ? `${row.ticker || "sem ticker"} · ${row.cliente || row.canal_label} — cria a task no workspace do cliente. Não posta no Chat.`
+        : "O botão só cria a task com o servidor local no ar. Rode python3 run.py (não abra o HTML como arquivo).";
+      document.getElementById("ekyteDue").value = addBusinessDays(4);
+      document.getElementById("ekyteError").textContent = API_READY ? "" : "Servidor local ausente.";
+      document.getElementById("ekyteSubmit").disabled = !API_READY;
+      document.getElementById("ekyteModal").hidden = false;
+    }
+    function closeEkyteModal() {
+      pendingThread = "";
+      document.getElementById("ekyteModal").hidden = true;
+      document.getElementById("ekyteSubmit").disabled = false;
+      document.getElementById("ekyteSubmit").textContent = "Confirmar e criar";
+    }
+    function openIgnoreModal(thread) {
+      const row = findPedido(thread);
+      if (!row) return;
+      pendingIgnore = thread;
+      document.getElementById("ignoreHint").textContent = API_READY
+        ? `${row.ticker || "sem ticker"} · ${row.cliente || row.canal_label} — sai da pauta. Use quando já estiver resolvido.`
+        : "Ignorar só grava com o servidor local no ar. Rode python3 run.py.";
+      document.getElementById("ignoreMotivo").value = "ja_resolvido";
+      document.getElementById("ignoreError").textContent = API_READY ? "" : "Servidor local ausente.";
+      document.getElementById("ignoreSubmit").disabled = !API_READY;
+      document.getElementById("ignoreModal").hidden = false;
+    }
+    function closeIgnoreModal() {
+      pendingIgnore = "";
+      document.getElementById("ignoreModal").hidden = true;
+      document.getElementById("ignoreSubmit").disabled = false;
+      document.getElementById("ignoreSubmit").textContent = "Confirmar";
+    }
+    async function postPedido(path, payload) {
+      const resp = await fetch(path, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Radar-Password": PASSWORD
+        },
+        body: JSON.stringify(payload)
+      });
+      const data = await resp.json();
+      if (!resp.ok || !data.ok) {
+        throw new Error(data.error || "Não deu certo.");
+      }
+      const thread = payload.thread;
+      const idx = (SNAP.pedidos || []).findIndex((row) => row.thread === thread);
+      if (idx >= 0) SNAP.pedidos[idx] = data.pedido || SNAP.pedidos[idx];
+      return data;
+    }
+    function filtered(applyVisao) {
+      const estados = selectedMulti("fEstado");
+      return (SNAP.pedidos || []).filter((row) => {
+        if (val("fCanal") && row.canal !== val("fCanal")) return false;
+        if (val("fGerencia") && row.gerencia !== val("fGerencia")) return false;
+        if (val("fCoordCli") && row.cliente_coord !== val("fCoordCli")) return false;
+        if (val("fCoordPed") && row.solicitante_coord !== val("fCoordPed")) return false;
+        if (!inPeriod(row.created_at, val("fPeriodo"), val("fDe"), val("fAte"))) return false;
+        if (val("fPrazo") === "atrasada" && row.estado !== "task_atrasada") return false;
+        if (val("fPrazo") === "sem" && row.prazo) return false;
+        if (val("fPrazo") === "com" && (!row.prazo || !inPeriod(row.prazo, val("fPeriodo"), val("fDe"), val("fAte")))) return false;
+        if (estados.length && !estados.includes(row.estado)) return false;
+        if (val("fResp") === "sim" && !row.respondida) return false;
+        if (val("fResp") === "nao" && row.respondida) return false;
+        if (val("fEnc") === "sim" && !row.encaminhada) return false;
+        if (val("fEnc") === "nao" && row.encaminhada) return false;
+        if (val("fOtif") && otifOf(row) !== val("fOtif")) return false;
+        if (val("fExec") && row.executor !== val("fExec")) return false;
+        if (!hay(row, val("fQ"))) return false;
+        const ign = val("fIgn") || "esconder";
+        if (ign === "esconder" && row.ignorado && !estados.includes("ignorado")) return false;
+        if (ign === "so" && !row.ignorado) return false;
+        if (applyVisao && val("fVisao") === "pauta" && !row.pauta) return false;
+        return true;
+      });
+    }
+    function sortRows(rows) {
+      const sort = val("fSort") || "data";
+      const copy = rows.slice();
+      if (sort === "gravidade") {
+        copy.sort((a, b) => (a.gravidade - b.gravidade) || (b.created_at || "").localeCompare(a.created_at || ""));
+      } else if (sort === "prazo") {
+        copy.sort((a, b) => (a.prazo || "9999").localeCompare(b.prazo || "9999") || (b.created_at || "").localeCompare(a.created_at || ""));
+      } else {
+        copy.sort((a, b) => (b.created_at || "").localeCompare(a.created_at || ""));
+      }
+      return copy;
+    }
+    function fmtDate(iso) {
+      if (!iso) return "-";
+      const d = new Date(iso);
+      return d.toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+    }
+    function pill(estado) {
+      const late = estado === "task_atrasada" || estado === "sem_resposta" || estado === "respondida_sem_task" || estado === "concluida_fora";
+      const ok = estado === "task_no_prazo" || estado === "concluida_no_prazo" || estado === "ignorado";
+      return `<span class="pill ${late ? "late" : ok ? "ok" : ""}">${ESTADO[estado] || estado}</span>`;
+    }
+    function writeHash() {
+      const params = new URLSearchParams();
+      Object.entries(HASH).forEach(([key, id]) => {
+        const el = document.getElementById(id);
+        if (el.multiple) {
+          const values = selectedMulti(id);
+          if (values.length) params.set(key, values.join(","));
+          return;
+        }
+        const value = el.value.trim();
+        const skipDefault = (id === "fPeriodo" && value === "45") || (id === "fVisao" && value === "fila") || (id === "fSort" && value === "data") || (id === "fIgn" && value === "esconder");
+        if (value && !skipDefault) params.set(key, value);
+      });
+      const next = params.toString();
+      const hash = next ? `#${next}` : "";
+      if (location.hash !== hash) history.replaceState(null, "", `${location.pathname}${location.search}${hash}`);
+    }
+    function readHash() {
+      const params = new URLSearchParams(location.hash.replace(/^#/, ""));
+      Object.entries(HASH).forEach(([key, id]) => {
+        if (!params.has(key)) return;
+        const el = document.getElementById(id);
+        const value = params.get(key) || "";
+        if (el.multiple) {
+          const wanted = new Set(value.split(",").filter(Boolean));
+          [...el.options].forEach((opt) => { opt.selected = wanted.has(opt.value); });
+          return;
+        }
+        el.value = value;
+      });
+    }
+    function render() {
+      writeHash();
+      const base = filtered(false);
+      const rows = sortRows(filtered(true));
+      const counts = {
+        total: rows.length,
+        sem_resposta: rows.filter(r => !r.ignorado && r.estado === "sem_resposta").length,
+        sem_task: rows.filter(r => !r.ignorado && !r.encaminhada).length,
+        atrasada: rows.filter(r => !r.ignorado && r.estado === "task_atrasada").length,
+        no_prazo: rows.filter(r => r.estado === "task_no_prazo").length,
+        ignorados: rows.filter(r => r.ignorado).length
+      };
+      document.getElementById("placar").innerHTML = [
+        ["Total", counts.total, ""],
+        ["Sem resposta", counts.sem_resposta, "bad"],
+        ["Sem task", counts.sem_task, "bad"],
+        ["Atrasada", counts.atrasada, "bad"],
+        ["No prazo", counts.no_prazo, "ok"],
+        ["Ignorados", counts.ignorados, ""]
+      ].map(([label, n, cls]) => `<div class="metric ${cls}"><div class="label">${label}</div><div class="num">${n}</div></div>`).join("");
+      document.getElementById("calloutTitle").textContent = `${counts.sem_task} sem task · ${counts.atrasada} atrasadas · ${counts.sem_resposta} sem resposta`;
+      document.getElementById("calloutText").textContent = `${counts.total} pedidos no recorte filtrado. Ignorar tira o que já foi resolvido da pauta.`;
+      const pauta = base.filter(r => r.pauta && !r.ignorado).sort((a,b) => a.gravidade - b.gravidade || (b.created_at||"").localeCompare(a.created_at||""));
+      document.getElementById("pauta").innerHTML = pauta.length ? pauta.slice(0, 40).map(row => `
+        <article class="pauta-item">
+          ${pill(row.estado)}
+          <div>
+            <h3>${esc(row.ticker || "sem ticker")} · ${esc(row.cliente || row.canal_label)}</h3>
+            <div class="meta">${esc(row.autor_nome)} · ${daysLabel(row)} · ${esc(row.trecho)}</div>
+          </div>
+          <div class="row-actions">
+            <a href="${esc(row.chat_url)}" target="_blank" rel="noopener">Chat</a>
+            ${rowActions(row)}
+          </div>
+        </article>`).join("") : `<div class="empty">Nenhum buraco neste recorte.</div>`;
+      document.getElementById("filaCount").textContent = `${rows.length} linhas na visão atual.`;
+      document.getElementById("tbody").innerHTML = rows.map(row => `<tr>
+        <td>${esc(row.canal_label)}</td>
+        <td>${fmtDate(row.created_at)}</td>
+        <td>${esc(row.autor_nome || "")}</td>
+        <td>${esc(row.solicitante_coord_label || "")}</td>
+        <td>${esc(row.ticker || "-")}</td>
+        <td>${esc(row.cliente || "-")}</td>
+        <td>${esc(row.gerencia || "-")}</td>
+        <td>${esc(row.cliente_coord_label || "-")}</td>
+        <td class="trecho">${esc(row.trecho || "")}</td>
+        <td>${row.respondida ? "sim" : "não"}</td>
+        <td>${row.encaminhada ? `<a href="${esc(row.task_url)}" target="_blank" rel="noopener">${esc(row.task_id)}</a>` : "não"}</td>
+        <td>${esc(row.prazo || "-")}</td>
+        <td>${esc(ESTADO[row.estado] || row.estado)}</td>
+        <td>${esc(row.executor)}</td>
+        <td><a href="${esc(row.chat_url)}" target="_blank" rel="noopener">abrir</a></td>
+        <td>${rowActions(row)}</td>
+      </tr>`).join("") || `<tr><td colspan="16" class="empty">Nenhum pedido neste recorte.</td></tr>`;
+    }
+    readHash();
+    ids.forEach(id => document.getElementById(id).addEventListener("input", render));
+    ids.forEach(id => document.getElementById(id).addEventListener("change", render));
+    document.addEventListener("click", (ev) => {
+      const ekyte = ev.target.closest(".js-ekyte");
+      if (ekyte) openEkyteModal(ekyte.getAttribute("data-thread"));
+      const ignore = ev.target.closest(".js-ignore");
+      if (ignore) openIgnoreModal(ignore.getAttribute("data-thread"));
+      const undo = ev.target.closest(".js-undo");
+      if (undo) {
+        postPedido("/api/desfazer", { thread: undo.getAttribute("data-thread") })
+          .then(() => render())
+          .catch((err) => { window.alert(err.message); });
+      }
+    });
+    document.getElementById("ekyteCancel").addEventListener("click", closeEkyteModal);
+    document.getElementById("ekyteModal").addEventListener("click", (ev) => {
+      if (ev.target.id === "ekyteModal") closeEkyteModal();
+    });
+    document.getElementById("ignoreCancel").addEventListener("click", closeIgnoreModal);
+    document.getElementById("ignoreModal").addEventListener("click", (ev) => {
+      if (ev.target.id === "ignoreModal") closeIgnoreModal();
+    });
+    document.getElementById("ekyteForm").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      if (!API_READY || !pendingThread) return;
+      const submit = document.getElementById("ekyteSubmit");
+      const error = document.getElementById("ekyteError");
+      submit.disabled = true;
+      submit.textContent = "Subindo…";
+      error.textContent = "";
+      try {
+        await postPedido("/api/criar-task", {
+          thread: pendingThread,
+          executor: document.getElementById("ekyteExec").value,
+          due: document.getElementById("ekyteDue").value
+        });
+        closeEkyteModal();
+        render();
+      } catch (err) {
+        error.textContent = err.message || "Falha de rede no servidor local.";
+        submit.disabled = false;
+        submit.textContent = "Confirmar e criar";
+      }
+    });
+    document.getElementById("ignoreForm").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      if (!API_READY || !pendingIgnore) return;
+      const submit = document.getElementById("ignoreSubmit");
+      const error = document.getElementById("ignoreError");
+      submit.disabled = true;
+      submit.textContent = "Salvando…";
+      error.textContent = "";
+      try {
+        await postPedido("/api/ignorar", {
+          thread: pendingIgnore,
+          motivo: document.getElementById("ignoreMotivo").value
+        });
+        closeIgnoreModal();
+        render();
+      } catch (err) {
+        error.textContent = err.message || "Falha de rede no servidor local.";
+        submit.disabled = false;
+        submit.textContent = "Confirmar";
+      }
+    });
+    document.getElementById("btnCsv").addEventListener("click", () => {
+      const rows = sortRows(filtered(true));
+      const header = ["canal","data","autor","coord_pediu","ticker","cliente","gerencia","coord_cliente","trecho","respondida","encaminhada","prazo","estado","executor","chat","task","ignorado","motivo"];
+      const lines = [header.join(";")].concat(rows.map(r => header.map(k => {
+        const map = {canal:r.canal_label,data:r.created_at,autor:r.autor_nome,coord_pediu:r.solicitante_coord_label,ticker:r.ticker,cliente:r.cliente,gerencia:r.gerencia,coord_cliente:r.cliente_coord_label,trecho:r.trecho,respondida:r.respondida,encaminhada:r.encaminhada,prazo:r.prazo,estado:r.estado,executor:r.executor,chat:r.chat_url,task:r.task_url,ignorado:r.ignorado ? "sim" : "nao",motivo:r.ignorado_motivo_label || ""};
+        return `"${String(map[k] ?? "").replaceAll('"','""')}"`;
+      }).join(";")));
+      const blob = new Blob([lines.join("\n")], {type:"text/csv;charset=utf-8"});
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "pauta-web-seo.csv";
+      a.click();
+    });
+    async function boot() {
+      try {
+        const health = await fetch("/api/health");
+        API_READY = health.ok;
+        if (API_READY) {
+          const snap = await fetch("/api/snapshot", { headers: { "X-Radar-Password": PASSWORD } });
+          if (snap.ok) Object.assign(SNAP, await snap.json());
+        }
+      } catch {
+        API_READY = false;
+      }
+      if (sessionStorage.getItem("web-seo-radar-gate") === "1") unlock();
+    }
+    boot();
+  </script>
+</body>
+</html>
